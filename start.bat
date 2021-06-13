@@ -15,7 +15,7 @@ ICACLS C:\Windows\installer /grant administrator:F >nul
 echo ngrok install !, field  Rebuild Lagi Ok!
 echo IP:
 tasklist | find /i "ngrok.exe" >Nul && curl -s localhost:4040/api/tunnels | jq -r .tunnels[0].public_url || echo "Tidak bisa mendapatkan NGROK tunnel, pastikan NGROK_AUTH_TOKEN benar di Settings> Secrets> Repository secret. Mungkin VM Anda sebelumnya masih berjalan: https://dashboard.ngrok.com/status/tunnels "
-echo Username: rajni
-echo Password: @rajni
+echo Username: rajnikant
+echo Password: @rajni@
 echo Username or password se login kro
 ping -n 10 127.0.0.1 >nul
