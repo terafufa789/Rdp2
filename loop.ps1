@@ -1,6 +1,6 @@
-$i = 2147480
+$i = 9999
 do {
     Write-Host $i
-    Sleep 2147480
+    Sleep 9999
     $i--
 } while ($i -gt 0)
